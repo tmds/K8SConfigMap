@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: ks8-testing
+  name: servicemap-config
+data:
+  ServiceRouting.json: |
+    {
+      "serviceRouting": {
+        "resolutions": [
+          {
+            "function": "test",
+            "service": "test",
+            "path": "api/{version}/{data}/method",
+            "methods": "GET"
+          }
+        ]
+      }
+    }

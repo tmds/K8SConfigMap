@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K8SConfigMap.Api", "K8SConfigMap.Api\K8SConfigMap.Api.csproj", "{640F1D71-A64A-4D8C-A1F0-B11640FE9943}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A0D92B9-4A4A-42FD-A107-970B9D1B3385}"
+	ProjectSection(SolutionItems) = preProject
+		configmap.yml = configmap.yml
+		deployment.yml = deployment.yml
+		docker-commands.txt = docker-commands.txt
+		k8s-commands.txt = k8s-commands.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{640F1D71-A64A-4D8C-A1F0-B11640FE9943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640F1D71-A64A-4D8C-A1F0-B11640FE9943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640F1D71-A64A-4D8C-A1F0-B11640FE9943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640F1D71-A64A-4D8C-A1F0-B11640FE9943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AA165C9-7F23-4892-83AE-1582CE000366}
+	EndGlobalSection
+EndGlobal
