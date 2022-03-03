@@ -6,6 +6,8 @@ ARG version=0.0.0
 
 COPY . ./
 
+RUN rm -rf ./K8SConfigMap.Api/ServiceMap
+
 RUN dotnet publish ./K8SConfigMap.Api/K8SConfigMap.Api.csproj --configuration ${configuration} -o ./publish \
       --runtime alpine-x64 \
       --self-contained true \
