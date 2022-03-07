@@ -1,4 +1,3 @@
-using K8SConfigMap.Api.Framework.Configuration;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -21,11 +20,6 @@ namespace K8SConfigMap.Api
             Host.CreateDefaultBuilder(args)
                 .ConfigureAppConfiguration((hostingContext, config) =>
                 {
-                    //config.AddJsonFile(
-                    //    new ConfigMapFileProvider(Path.Combine(AppContext.BaseDirectory, "servicemap")),
-                    //    "ServiceRouting.json",
-                    //    false,
-                    //    true);
                     config.AddJsonFile(Path.Combine(AppContext.BaseDirectory, "servicemap", "ServiceRouting.json"), false, true);
                 })
                 .ConfigureWebHostDefaults(wb =>

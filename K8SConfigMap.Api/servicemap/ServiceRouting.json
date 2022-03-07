@@ -1,10 +1,10 @@
 {
-  "serviceRouting": {
+  "ServiceRouting": {
     "resolutions": [
       {
         "function": "test",
         "service": "test",
-        "path": "api/{version}/{data}/method",
+        "path": "api/{version}/{data}/method8",
         "methods": "GET"
       }
     ]

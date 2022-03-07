@@ -6,7 +6,7 @@ metadata:
 data:
   ServiceRouting.json: |
     {
-      "serviceRouting": {
+      "ServiceRouting": {
         "resolutions": [
           {
             "function": "test",
